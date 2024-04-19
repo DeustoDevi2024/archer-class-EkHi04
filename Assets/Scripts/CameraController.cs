@@ -35,8 +35,8 @@ namespace Archer
 
         private void Update()
         {
-           //this.transform.SetParent(target);
-           this.transform.LookAt(target.position + offset);
+           this.transform.SetParent(target);
+           //this.transform.LookAt(target.position + offset);
            //this.transform.position = target.position - target.forward * distance  + offset;
 
   
