@@ -9,7 +9,7 @@ namespace Archer
     public class Enemy : MonoBehaviour, IScoreProvider
     {
 
-        // Cuántas vidas tiene el enemigo
+        // Cuantas vidas tiene el enemigo
         [SerializeField]
         private int hitPoints;
 
@@ -22,7 +22,7 @@ namespace Archer
             animator = GetComponent<Animator>();
         }
 
-        // Método que se llamará cuando el enemigo reciba un impacto
+        // Metodo que se llamara cuando el enemigo reciba un impacto
         public void Hit()
         {
          

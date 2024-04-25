@@ -19,7 +19,7 @@ namespace Archer
         // El rigidbody de la flecha es tipo Trigger, para que no colisione
         private void OnTriggerEnter(Collider other)
         {
-            // La flecha sólo produce daño y ruido en el primer impacto
+            // La flecha sï¿½lo produce daï¿½o y ruido en el primer impacto
             if (hit) {
                 return;
             }
@@ -42,7 +42,7 @@ namespace Archer
 
             // Miramos a ver si el objeto contra el que ha impacto la flecha tiene un componente Enemy...
            
-            // ... Y si lo tiene, le hacemos daño (la siguiente comprohación es equivalente a hacer if (enemy != null) { enemy.Hit(); }
+            // ... Y si lo tiene, le hacemos daï¿½o (la siguiente comprohaciï¿½n es equivalente a hacer if (enemy != null) { enemy.Hit(); }
           
         }
 
